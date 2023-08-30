@@ -1,5 +1,11 @@
 {
-	"importOrder": ["^react", "^next", "<THIRD_PARTY_MODULES>", "(.*) layout(.*)$", ".*/style(.*)$"],
+	"importOrder": [
+		"<THIRD_PARTY_MODULES>",
+		"^.*/controllers/(.*)$",
+		"^.*/handlers/(.*)$",
+		"^.*/routes/(.*)$",
+		"^.*/utils/(.*)$"
+	],
 	"importOrderSeparation": true,
 	"importOrderSortSpecifiers": true,
 	"importOrderCaseInsensitive": true,
