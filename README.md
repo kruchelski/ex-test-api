@@ -17,7 +17,7 @@ A "bank like" API for testing purposes
 
 ## ℹ️ About
 
-This is a simple REST API to simulate some bank transactions events, like **deposits**, **withdraws** or **transfers between accounts**. All of the interactions are made through HTTP requests. The available routes and their info are described in the [Available Routes](##-available-routes) below in this README.  
+This is a simple REST API to simulate some bank transactions events, like **deposits**, **withdraws** or **transfers between accounts**. All of the interactions are made through HTTP requests. The available routes and their info are described in the **Available Routes** below in this README.  
 The purpose of this project is to serve as a test and to evaluate some knowledge.
 
 > Note: As this is for evaluation, there is no persistance mechanism (like a database). Once the application is stopped, the application's data will be lost.
@@ -26,7 +26,7 @@ The purpose of this project is to serve as a test and to evaluate some knowledge
 
 Using some API Platform, like [Postman](https://www.postman.com/) the user can make the requests to some specific routes, using the correct method and the correct body schema and query strings parameters. The idea is that through the requests, the user can add an account, deposit or withdraw from accounts, transfer between accounts and reset the accounts list.
 
-> Note: Despite not being a mandatory feature, there are routes to check the health of the service and also to list all accounts added. More info in the [Available Routes](##-available-routes) below.
+> Note: Despite not being a mandatory feature, there are routes to check the health of the service and also to list all accounts added. More info in the **Available Routes** below.
 
 ## 📚 Main libs and tech
 
